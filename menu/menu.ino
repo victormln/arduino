@@ -16,7 +16,6 @@ void setup() {
 }
 
 void loop() {
-    // put your main code here, to run repeatedly:
     if (isConfigurationButtonPushed() && !inMenu) {
         inMenu = true;
         printMenu();
